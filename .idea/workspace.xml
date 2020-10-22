@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9f9c21-32f8-4852-9d82-bc6210b7c5d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/AnimalConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Development.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Gato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/MinhaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/MinhaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/tamyhs/MinhaConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/tamyhs/MinhaConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -44,6 +49,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.tamyhs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Cursos\Java\src\main\resources" />
     </key>
@@ -100,22 +108,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="373" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1602798795832" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603227257146">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603407242313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603227257146" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603227257146">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603407242313" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603407242312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603227257146" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603227257146">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603407242312" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603407242312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603227257146" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603227257146">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603407242312" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603407242312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603227257146" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603407242312" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601934524548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -132,9 +140,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601934524548" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1603144680463">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1603405431702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603144680463" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603405431702" />
   </component>
 </project>

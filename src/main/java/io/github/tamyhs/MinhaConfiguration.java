@@ -5,9 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Configuration
+@Development
+//@Configuration
 //Para configurar essa configuração para um ambiente especifico
-@Profile("development")
+//@Profile("development")
 public class MinhaConfiguration {
 
     @Bean
