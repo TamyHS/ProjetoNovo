@@ -16,10 +16,10 @@ public class VendasApplication {
 
     /*@Autowired
     @Qualifier("applicationName")*/
-    @Value("${application.name}")
+    //@Value("${application.name}")
     private String applicationName;
 
-    @Gato
+    /*@Gato
     private Animal animal;
 
     @Bean(name = "executarAnimal")
@@ -27,7 +27,7 @@ public class VendasApplication {
         return args -> {
           this.animal.fazerBarulho();
         };
-    }
+    }*/
 
     @GetMapping("/hello")
     public String helloWorld(){
