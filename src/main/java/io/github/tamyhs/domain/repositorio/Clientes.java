@@ -41,17 +41,24 @@ public class Clientes {
     }
 
     public List<Cliente> buscarPorNome(String nome){
-        return jdbcTemplate.query(SELECT_POR_NOME, );
+        return jdbcTemplate.query(
+                SELECT_ALL.concat(" where nome like ?"),
+                new Object[]{"%" + nome + "%"},
+                obertClienteMapper());
     }
 
     public List<Cliente> obertTodos(){
-        return jdbcTemplate.query(SELECT_ALL, new RowMapper<Cliente>() {
+        return jdbcTemplate.query(SELECT_ALL, obertClienteMapper());
+    }
+
+    private RowMapper<Cliente> obertClienteMapper() {
+        return new RowMapper<Cliente>() {
             @Override
             public Cliente mapRow(ResultSet resultSet, int i) throws SQLException {
                 Integer id = resultSet.getInt("id");
                 String nome = resultSet.getString("nome");
                 return new Cliente(id, nome);
             }
-        });
+        };
     }
 }
