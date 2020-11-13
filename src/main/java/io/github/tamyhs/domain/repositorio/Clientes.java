@@ -16,7 +16,6 @@ import java.util.List;
 public class Clientes {
 
     private static String SELECT_ALL = "SELECT * FROM CLIENTE ";
-    private static String UPDATE = "UPDATE CLIENTE SET NOME = ? WHERE ID = ? ";
     private static String DELETE = "delete from cliente where id = ? ";
 
     @Autowired
@@ -31,9 +30,9 @@ public class Clientes {
         return cliente;
     }
 
+    @Transactional
     public Cliente atualizar(Cliente cliente){
-        jdbcTemplate.update(UPDATE, new Object[]{
-                cliente.getNome(), cliente.getId()});
+       entityManager.merge(cliente);
         return cliente;
     }
 

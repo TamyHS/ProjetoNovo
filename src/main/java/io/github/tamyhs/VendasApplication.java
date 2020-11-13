@@ -18,25 +18,7 @@ import java.util.List;
 @RestController
 public class VendasApplication {
 
-    /*@Autowired
-    @Qualifier("applicationName")*/
-    //@Value("${application.name}")
     private String applicationName;
-
-    /*@Gato
-    private Animal animal;
-
-    @Bean(name = "executarAnimal")
-    public CommandLineRunner executar(){
-        return args -> {
-          this.animal.fazerBarulho();
-        };
-    }*/
-
-    /*@GetMapping("/hello")
-    public String helloWorld(){
-        return applicationName;
-    }*/
 
     @Bean
     public CommandLineRunner init (@Autowired Clientes clientes){

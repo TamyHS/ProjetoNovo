@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ab9f9c21-32f8-4852-9d82-bc6210b7c5d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/AnimalConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Cachorro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Development.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/MinhaConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/domain/repositorio/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/tamyhs/domain/repositorio/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,10 +145,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601934524548" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1605128329595">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1605219617853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605128329595" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605219617853" />
     <state x="413" y="126" key="extract.method.dialog" timestamp="1604960773041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
