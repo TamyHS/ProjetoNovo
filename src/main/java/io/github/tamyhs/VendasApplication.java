@@ -40,7 +40,8 @@ public class VendasApplication {
             todosClientes.forEach(System.out::println);
 
             System.out.println("Buscando clientes");
-            clientes.findByNomeLike("Cli").forEach(System.out::println);
+            List<Cliente> result = clientes.encontrarPorNome("Cli");
+            result.forEach(System.out::println);
 
             System.out.println("Deletando clientes");
             clientes.findAll().forEach(c -> {
