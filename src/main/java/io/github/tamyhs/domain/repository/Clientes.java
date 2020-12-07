@@ -1,4 +1,4 @@
-package io.github.tamyhs.domain.repositorio;
+package io.github.tamyhs.domain.repository;
 
 import io.github.tamyhs.domain.entity.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
