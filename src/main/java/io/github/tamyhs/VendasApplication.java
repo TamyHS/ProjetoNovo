@@ -1,7 +1,9 @@
 package io.github.tamyhs;
 
 import io.github.tamyhs.domain.entity.Cliente;
+import io.github.tamyhs.domain.entity.Pedido;
 import io.github.tamyhs.domain.repository.Clientes;
+import io.github.tamyhs.domain.repository.Pedidos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -35,6 +37,9 @@ public class VendasApplication {
 
             todosClientes = clientes.findAll();
             todosClientes.forEach(System.out::println);
+
+            Pedido p = new Pedido();
+            p.setCliente();
 
             System.out.println("Buscando clientes");
             List<Cliente> result = clientes.encontrarPorNome("Cli");
