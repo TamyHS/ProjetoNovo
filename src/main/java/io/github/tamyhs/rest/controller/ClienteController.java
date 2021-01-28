@@ -2,12 +2,14 @@ package io.github.tamyhs.rest.controller;
 
 import io.github.tamyhs.domain.entity.Cliente;
 import io.github.tamyhs.domain.repository.Clientes;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 @Controller
-@RequestMapping("/api/clientes")
 public class ClienteController {
 
     private Clientes clientes;
@@ -18,7 +20,12 @@ public class ClienteController {
 
     @GetMapping("/api/clientes/{id}")
     @ResponseBody
-    public ResponseEntity<Cliente> getClienteById( @PathVariable Integer id ){
+    public ResponseEntity getClienteById( @PathVariable Integer id ){
+        Optional<Cliente> cliente = clientes.findById(id);
+        if(cliente.isPresent()){
+            return ResponseEntity.ok(cliente.get());
+        }
 
+        return ResponseEntity.notFound().build();
     }
 }
